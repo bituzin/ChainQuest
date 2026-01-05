@@ -17,9 +17,7 @@ Tech stack:
 - React, Vite, Tailwind CSS
 - Wagmi / RainbowKit for wallet integration
 
-```
 Contributing:
 - Work on the `working` branch and open PRs into `main` when ready.
-- Do not commit secrets; use `.env` and `.gitignore`.
 
 This is a short overview — see the project folders for configuration and usage details.
