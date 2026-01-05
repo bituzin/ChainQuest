@@ -1,31 +1,25 @@
 ChainQuest
 
-Praktyczna platforma do nauki smart kontraktów.
+A compact platform for learning and practicing smart contract development.
 
-Krótko:
-- Przeglądaj zadania, pisz i testuj rozwiązania, zdobywaj punkty i odznaki.
-- Zawiera smart kontrakty (Solidity), frontend React (Vite + Tailwind) i skrypty Hardhat.
+Summary:
+- Browse challenges, write and test solutions, earn points and badges.
+- Includes Solidity smart contracts, a React frontend (Vite + Tailwind), and Hardhat scripts.
 
 
-Wkład:
-- Wysyłaj PR na gałąź `working`.
+What the project contains:
+- Solidity contracts that manage challenges, solution validation, and rewards.
+- A React frontend for browsing challenges, editing solutions, and viewing profiles.
+- Hardhat scripts for local deployment and testing.
 
-Technologie:
+Tech stack:
 - Solidity, Hardhat
 - React, Vite, Tailwind CSS
-- Wagmi / RainbowKit (wallet integration)
+- Wagmi / RainbowKit for wallet integration
 
-Szybkie polecenia:
-```powershell
-cd packages/contracts
-npm install
-npm run node        # uruchom lokalny Hardhat
-
-cd ../frontend
-npm install
-npm run dev         # uruchom frontend (Vite)
 ```
+Contributing:
+- Work on the `working` branch and open PRs into `main` when ready.
+- Do not commit secrets; use `.env` and `.gitignore`.
 
-Kontakt i wkład:
-- Używaj gałęzi `working` do pracy roboczej i zakładaj PRy do `main` po przygotowaniu zmian.
-- Zgłaszaj sugestie i poprawki przez issues/PR.
+This is a short overview — see the project folders for configuration and usage details.
