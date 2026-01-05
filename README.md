@@ -1,6 +1,6 @@
 ChainQuest
 
-A compact platform for learning and practicing smart contract development.
+A compact platform for learning and practicing smart contract development. Wroking on L2 Base Mainnet and Base Sepolia chain.
 
 Summary:
 - Browse challenges, write and test solutions, earn points and badges.
