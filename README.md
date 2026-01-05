@@ -15,3 +15,28 @@ Wkład:
 - Nie dodawaj sekretów do repo — używaj `.env` i `.gitignore`.
 
 To krótki opis; szczegóły konfiguracji i użycia znajdziesz w katalogach projektu.
+
+Co zawiera projekt:
+- Zestaw kontraktów Solidity zarządzających wyzwaniami, walidacją rozwiązań i nagrodami.
+- Frontend React z interfejsem do przeglądania wyzwań, edycji rozwiązań i profili użytkowników.
+- Skrypty Hardhat do lokalnego deploya i testów oraz przykładowe dane/deploy scripts.
+
+Technologie:
+- Solidity, Hardhat
+- React, Vite, Tailwind CSS
+- Wagmi / RainbowKit (wallet integration)
+
+Szybkie polecenia:
+```powershell
+cd packages/contracts
+npm install
+npm run node        # uruchom lokalny Hardhat
+
+cd ../frontend
+npm install
+npm run dev         # uruchom frontend (Vite)
+```
+
+Kontakt i wkład:
+- Używaj gałęzi `working` do pracy roboczej i zakładaj PRy do `main` po przygotowaniu zmian.
+- Zgłaszaj sugestie i poprawki przez issues/PR.
