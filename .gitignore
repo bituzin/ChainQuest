@@ -45,6 +45,8 @@ packages/contracts/coverage.json
 # Deployments (zawiera adresy kontraktów - commituj selective)
 packages/contracts/deployments/*.json
 !packages/contracts/deployments/.gitkeep
+# Ignore deployment/test scripts
+packages/contracts/scripts/
 
 # Test outputs
 coverage/
